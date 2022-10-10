@@ -36,7 +36,6 @@ class Merge_sort_py:
     def __init__(self, arr: list):
         self.arr = arr
         self.arr = self.sort(self.arr)
-
     def sort(self, arr: list):
         if len(arr) <= 1:
             return arr

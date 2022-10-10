@@ -20,5 +20,5 @@ class BM:
 
 
 if __name__ == '__main__':
-    bm = BM('abc')
-    print(bm.search('aaabcde'))
+    bm = BM('ccb')
+    print(bm.search('abccbac'))
